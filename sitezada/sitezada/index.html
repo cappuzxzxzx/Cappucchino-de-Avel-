@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titleM></titleM></title>
+    <style>
+        /* Estilo Geral */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #fce4ec;
+        }
+
+        /* Container do Perfil */
+        .profile-container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+        }
+
+        /* Adicionando um coração decorativo */
+        .heart-decor {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 60px;
+        }
+
+        /* Imagem de Perfil */
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Faz a imagem ficar redonda */
+            border: 4px solid #ff80ab;
+            object-fit: cover; /* Garante que a imagem ocupe o espaço de forma equilibrada */
+        }
+
+        /* Estilos de Texto */
+        h1 {
+            font-size: 24px;
+            color: #e91e63;
+            margin: 15px 0 5px;
+        }
+
+        p {
+            color: #6a1b9a;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        /* Links das Redes Sociais */
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-links a {
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Cores das Redes Sociais */
+        .social-links a.instagram { background-color: #b5005b; }
+        .social-links a.twich { background-color: #6a1b9a; }
+        .social-links a.twitter { background-color: #1da1f2; }
+
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Coração decorativo -->
+        <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Coração" class="heart-decor">
+        
+        <!-- Imagem de Perfil -->
+        <img src="https://i.pinimg.com/originals/44/5d/24/445d24360bfe3837606b78cb6ffda958.gif" alt="" class="profile-image">
+        
+        <h1>Fernanda Cappucchino</h1>
+        <p>Desenvolvedor Web | Designer | Apreciador de Coisas Fofas</p>
+        <p>Oi! Sou apaixonado por criar e compartilhar coisas incríveis na internet. Adoro explorar novas tecnologias e transformar ideias em realidade!</p>
+        
+        <!-- Links das Redes Sociais com Ícones -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/ily_cappu/?hl=en" target="_blank" class="linkedin">
+                <img src="https://i.pinimg.com/564x/f4/1e/2d/f41e2dab621c1ee5253cef74e3642fcf.jpg" alt="instagram" width="20">
+            </a>
+            <a href="https://www.twitch.tv/cappucchi_" target="_blank" class="twich">
+                <img src="https://i.pinimg.com/564x/10/89/8b/10898b5de6e45930e0056e532e22381e.jpg" alt="twich" width="20">
+            </a>
+            <a href="" target="_blank" class="X">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,20 @@
+<body>
+    <header>
+        <!-- Seu cabeçalho -->
+    </header>
+
+    <!-- Aqui é onde você insere o GIF -->
+    <div class="gif-container">
+        <img src="URL_DO_SEU_GIF.gif" alt="Descrição do GIF">
+    </div>
+
+    <!-- Conteúdo exibido ao clicar nos botões -->
+    <div id="sobreMim" class="content">
+        <!-- Conteúdo -->
+    </div>
+    
+    <footer>
+        <!-- Seu rodapé -->
+    </footer>
+</body>
+
